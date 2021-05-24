@@ -18,22 +18,58 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1911
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX1911/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service \
+    vendor/realme/RMX1911/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
+    vendor/realme/RMX1911/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service \
+    vendor/realme/RMX1911/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc \
+    vendor/realme/RMX1911/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/realme/RMX1911/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc \
+    vendor/realme/RMX1911/proprietary/vendor/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml \
     vendor/realme/RMX1911/proprietary/vendor/etc/thermal-engine-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-high.conf \
     vendor/realme/RMX1911/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
     vendor/realme/RMX1911/proprietary/vendor/etc/thermal-engine-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-nolimits.conf \
     vendor/realme/RMX1911/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
     vendor/realme/RMX1911/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b00 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b01 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b02 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b03 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b04 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b05 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b06 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.b07 \
+    vendor/realme/RMX1911/proprietary/vendor/firmware/f_1511.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/f_1511.mdt \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/RA105A0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A0.bin \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/RA105A004.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A004.ini \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/ilitek_fw_xl_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/ilitek_fw_xl_signed.bin \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/nt_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw.bin \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_mp.bin \
     vendor/realme/RMX1911/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_signed.bin \
+    vendor/realme/RMX1911/proprietary/vendor/lib/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.faceservice@1.0.so \
     vendor/realme/RMX1911/proprietary/vendor/lib/hw/audio.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.trinket.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/libalipay_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalipay_factory.so \
     vendor/realme/RMX1911/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/realme/RMX1911/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/libhypnusclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypnusclient.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/librpmbengclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmbengclient.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/libstfaceunlockocl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstfaceunlockocl.so \
     vendor/realme/RMX1911/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.biometrics.face@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.commondcs@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.hypnus@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/realme/RMX1911/proprietary/vendor/lib64/hw/audio.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.trinket.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/libalipay_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalipay_factory.so \
     vendor/realme/RMX1911/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/realme/RMX1911/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
-    vendor/realme/RMX1911/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so
+    vendor/realme/RMX1911/proprietary/vendor/lib64/libhypnusclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypnusclient.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmbengclient.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.hypnus@1.0.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
